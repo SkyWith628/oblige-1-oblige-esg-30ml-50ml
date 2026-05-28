@@ -6,11 +6,8 @@ import { usePageTitle } from "../hooks/usePageTitle";
 
 export function HomePage() {
   usePageTitle("메인");
-<<<<<<< HEAD
   const heroImage = `${import.meta.env.BASE_URL}assets/oblige-products.jpg`;
-=======
   const heroImage = `${import.meta.env.BASE_URL}assets/oblige-products.png`;
->>>>>>> 5597cf8638f4730309ea89960acf3f4fda6c9789
 
   return (
     <main>
